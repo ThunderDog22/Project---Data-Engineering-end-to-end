@@ -17,3 +17,23 @@ building first etl
   3 is to load data from container 2 to 3 using azure sypase
   
 ## create ADF
+## 🚀 Data Pipeline: Pulling Data from GitHub to Azure Storage
+
+This project includes an automated pipeline that **retrieves data from a GitHub repository** and stores it in an **Azure Storage Account**. The pipeline is built using **Azure Data Factory (ADF)** and leverages an **HTTP linked service** to fetch files from GitHub.
+
+---
+
+## 📌 How the Pipeline Works
+1. **GitHub as Data Source**  
+   - The pipeline pulls data files directly from a **GitHub repository**.
+   - It uses the **GitHub API** to fetch file contents dynamically.
+
+2. **HTTP Linked Service in Azure Data Factory**  
+   - The pipeline uses an **HTTP linked service** to make requests to GitHub.
+   - The request is a **GET API request** that retrieves file contents from GitHub.
+
+3. **Storing Data in Azure Storage**  
+   - The retrieved data is transferred and stored in an **Azure Storage Account**.
+   - This allows further data processing, analytics, or integration with other Azure services.
+
+---

@@ -37,3 +37,22 @@ This project includes an automated pipeline that **retrieves data from a GitHub 
    - This allows further data processing, analytics, or integration with other Azure services.
 
 ---
+
+## Create Azure Databricks workspace
+Fill in the following necessary fields
+- Subscripton
+- Resource group
+- Workspace name
+- Region
+- Pricing tiers
+
+Lauch Databricks workspace
+1. Create compute (nodes/spark cluster)
+   - Policy: Unrestricted, single node
+   - Access mode: no isolation shared
+   - Performance: Runtime with long time support (lts)
+   - Node type: General purpose
+   - 
+     
+3. Create workspace
+

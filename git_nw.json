@@ -1,0 +1,11 @@
+[
+	{
+		"p_relativeurl" : "ThunderDog22/project-data-engineering-azure-databricks-synapse/refs/heads/main/datasets/1/northwind_order_details.csv",
+		"p_sink_filename" : "northwind_order_details.csv"
+	},
+
+	{
+		"p_relativeurl" : "ThunderDog22/project-data-engineering-azure-databricks-synapse/refs/heads/main/datasets/1/northwind_orders.csv",
+		"p_sink_filename" : "northwind_orders.csv"
+	}
+]
